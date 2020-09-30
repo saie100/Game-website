@@ -1,0 +1,21 @@
+html
+  head
+    title TypeFaster.com 
+    script(src='/javascripts/HomeScript.js', type='text/javascript', defer='')
+    link(rel='stylesheet', href='/stylesheets/HomeStyle.css')
+  body
+    audio#advance(preload='auto', src='/sounds/level-complete.mp3')  
+    section.Homebar
+      div
+        h1 TypeFaster
+    section.HomeIntro
+      div
+        h2 TypeFaster is a program meant to improve your typing speed 
+        p Founded by David Saie 
+    section.menu
+      .optionWrapper
+        a(href='practice')
+          .containerP
+            button#practice  Practice 
+        .containerC
+          button#challenge  Challenge 

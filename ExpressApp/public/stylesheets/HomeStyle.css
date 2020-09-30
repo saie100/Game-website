@@ -1,0 +1,112 @@
+body{
+    position: absolute;
+
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    margin:  0px;
+    padding: 0px;
+    background-image: url(../images/XboxWorld.png);
+    /*background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.Homebar{
+
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.HomeIntro{
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+
+}
+
+.optionWrapper{
+    
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /*justify-content: space-around; */
+    justify-content: space-evenly;
+
+    border: 5px solid white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    
+    width: 250px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    left: 0;
+    right: 0;
+
+}
+
+.containerP{
+
+    background-image: url(../images/buttons.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 20px 50px;
+    
+    border: 5px solid black;
+    border-radius: 12px;
+    background-position: center;
+    
+
+}
+
+.containerC{
+    background-image: url(../images/buttons.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 20px 50px;
+    
+    border: 5px solid black;
+    border-radius: 12px;
+    background-position: center;
+    
+}
+#practice{
+
+    color: black;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#challenge{
+
+    color: black;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+h1{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    color: white;
+
+}
+

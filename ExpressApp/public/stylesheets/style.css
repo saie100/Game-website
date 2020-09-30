@@ -1,0 +1,167 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: large;
+  text-align: center;
+  margin:  0px;
+  padding: 0px;
+  background-image: url(../images/WebpicLink.jpg);
+  width: 100vw;
+  height: 100vh;
+  
+  }
+  
+  .bar {
+      display: block;
+      z-index: 10;
+      color: white;
+      padding: 40px;
+      margin-bottom: 0px;
+      border: 0px;
+      background-image: url(../images/Matrix.jpg);
+      background-size: contain;
+  }
+  
+  h1{
+      font-size: 40px;
+      font-weight: 900px;
+  }
+  
+  .bar2{
+  
+      color: white;
+      display: block;
+      margin-top: 0px;
+      border-top: 0px;
+      padding: 20px; 
+  
+  }
+  
+  .main{
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      opacity: 1;
+      transition: 500ms;
+      transform: translateX(0);
+      transform-origin: left;
+  }
+  
+  html.is-animating .main{
+      opacity: 1;
+  }
+  
+  html.is-leaving .main{
+      opacity: 0;
+  }
+  
+  div {
+  
+      text-align: center;
+  
+  }
+  
+  #original_text{
+  
+      display: inline-block;
+      background-color: whitesmoke;
+      padding: 5px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-weight: bolder;
+      font-size: xx-large;
+  }
+  
+  #TextArea{
+  
+      border: solid 10px grey;
+      border-radius: 10px;
+      
+  }
+  
+  .Ccontainer{
+  
+      color: white;
+      position: absolute;
+      margin-top: 0px;
+      padding: 0px;
+      left: 480px;
+      display: inline-block;
+      font-size: 50px;
+      font-weight: bolder;
+  
+  }
+  
+  .Rcontainer{
+      position: absolute;
+  
+      left: 770px;
+  
+      background-color: transparent;
+      border: transparent 0px transparent;
+      color: transparent;
+  
+      padding: 10px;
+      margin-top: 5px;
+      background-image: url(../images/buttons.png);
+      background-size: contain;
+      display: inline-block;
+  
+  }
+  
+  .Ncontainer{
+      position: absolute;
+      left: 925px;
+  
+      visibility: hidden;
+      
+      background-color: transparent;
+      border: transparent 0px transparent;
+      color: transparent;
+  
+      padding: 10px;
+      margin-top: 5px;
+      background-image: url(../images/buttons.png);
+      background-size: contain;
+      display: inline-block;
+  }
+  
+  .functions{
+      position: absolute;
+      width: max-content;
+      height: max-content;
+      display: block;
+  }
+  
+  #Nbutton{
+  
+      font-size: xx-large;
+      display: inline-block;
+      background-color: transparent;
+      border: transparent 0px transparent;
+      border-width: 0px;
+      padding: 0;
+      color: black;
+      width: 84px;
+  
+  }
+  
+  #Rbutton{
+  
+      font-size: xx-large;
+      display: inline-block;
+      background-color: transparent;
+      border: transparent 0px transparent;
+      border-width: 0px;
+      padding: 0;
+      color: black;
+  
+  
+  }
+  
+  #timer{
+      
+      display: inline-block;
+      
+  
+  }
+  

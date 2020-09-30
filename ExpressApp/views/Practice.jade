@@ -1,0 +1,31 @@
+html
+  head
+    title TypeFaster.com 
+    script(type='text/javascript', src='/javascripts/script.js', defer='')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    audio#chime(preload='auto', src='/sounds/collect-chime.mp3')  
+    audio#fail(preload='auto', src='/sounds/Banana Peel Slip.wav')  
+    section.bar
+      div
+        h1 TypeFaster
+    section.bar2
+      .dashboard
+        .score
+          h2 Score
+          p.level(style='display: none;') 1
+          .result
+            p 0
+    section.main
+      div
+        #original_text
+          p Hello world
+      div
+        textarea#TextArea(name='message', rows='11', cols='75', placeholder='Type Here...')
+      .functions
+        .Rcontainer
+          button#Rbutton  Reset 
+        .Ncontainer
+          button#Nbutton  Next 
+        .Ccontainer
+          #timer 00:00:00
